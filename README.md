@@ -1,4 +1,4 @@
-##installiation
+## Installiation
 
 1. create virtual environmnet and install all liberaries in the requirement.txt
 2. activate your virtual environment
@@ -31,12 +31,9 @@
                -> delete a task by it's id
 
 ## programing language and framework
-programing language -> python
-framework -> Django, Django-rest-framework
+1. Programing language -> python
+2. Framework -> Django, Django-rest-framework
 
 ## Name and email
-
-Name: Bereket Worku
-E-mail: bereker.worku@a2sv.org
-   
-    
+1. Name: Bereket Worku
+2. E-mail: bereker.worku@a2sv.org
