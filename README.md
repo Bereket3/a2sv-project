@@ -1,13 +1,12 @@
 ## Installiation
 
 1. Create virtual environmnet and install all liberaries in the requirement.txt
-         Commands:
-                  1. py -m venv venv
-                  2. To activate the virtual environment
-                     -> on cmd venv\scripts\activate.bat
-                     -> on powershell venv/scripts/Activate.ps1
-                     -> on git bash cd venv/scripts and . activate
-                  3. pip install -r requirement.txt
+      1. py -m venv venv
+      2. To activate the virtual environment
+         -> on cmd venv\scripts\activate.bat
+         -> on powershell venv/scripts/Activate.ps1
+         -> on git bash cd venv/scripts and . activate
+      3. pip install -r requirement.txt
 
 2. Activate your virtual environment
 3. run the command py manage.py makemigrations
