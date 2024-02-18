@@ -1,14 +1,24 @@
 ## Installiation
 
-1. create virtual environmnet and install all liberaries in the requirement.txt
-2. activate your virtual environment
-3. run the command py manage.py runserver
+1. Create virtual environmnet and install all liberaries in the requirement.txt
+   Commands:
+      1. py -m venv venv
+      2. To activate the virtual environment
+         -> on cmd venv\scripts\activate.bat
+         -> on powershell venv/scripts/Activate.ps1
+         -> on git bash cd venv/scripts and . activate
+      3. pip install -r requirement.txt
+
+2. Activate your virtual environment
+3. run the command py manage.py makemigrations
+4. run the command py manage.py migrate
+4. run the command py manage.py runserver
 
 ## Testing
 
-1. the default host will be https://localhost:8000
-2. go to postman or other api testers and your host will be https://localhost:8000
-3. endpoints are:
+1. By default host will be https://localhost:8000
+2. Go to postman or other api testers and your host will be https://localhost:8000
+3. Endpoints are:
 
        1. https://localhost:8000/tasks -> method GET
           * description:
@@ -30,9 +40,10 @@
           * description:
                -> delete a task by it's id
 
-## programing language and framework
+## Programing language, Framework and Database
 1. Programing language -> python
 2. Framework -> Django, Django-rest-framework
+3. Database Mysql
 
 ## Name and email
 1. Name: Bereket Worku
